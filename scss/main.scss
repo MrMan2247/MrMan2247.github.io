@@ -17,10 +17,12 @@ body {
 	width: 100%;
 
 	.header {
-		background: url("../img/background3-bw.jpg") center;
 		width: 100%;
 		background-size: cover;
 		height: 100vh;
+
+		&.home { background: url("../img/background3-bw.jpg") center; background-size: cover; }
+		&.design { background: url("../img/masthead-design.jpg") center; background-size: cover; }
 
 		h1 {
 			text-align: center;
@@ -241,6 +243,18 @@ body {
 						margin: auto;
 						padding: 100px 0;
 					}
+				}
+			}
+		}
+
+		.photographs {
+			background: url('../img/photography-bg.jpg');
+
+			.photos {
+				display: flex;
+
+				.photo {
+					flex: 0 0 25%;
 				}
 			}
 		}

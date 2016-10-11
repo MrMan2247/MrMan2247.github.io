@@ -9,10 +9,15 @@ body {
   margin: 0;
   width: 100%; }
   body .header {
-    background: url("../img/background3-bw.jpg") center;
     width: 100%;
     background-size: cover;
     height: 100vh; }
+    body .header.home {
+      background: url("../img/background3-bw.jpg") center;
+      background-size: cover; }
+    body .header.design {
+      background: url("../img/masthead-design.jpg") center;
+      background-size: cover; }
     body .header h1 {
       text-align: center;
       position: relative;
@@ -221,6 +226,18 @@ body {
           max-width: 480px;
           margin: auto;
           padding: 100px 0; }
+    body .content .photographs {
+      background: url("../img/photography-bg.jpg"); }
+      body .content .photographs .photos {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        body .content .photographs .photos .photo {
+          -webkit-box-flex: 0;
+          -webkit-flex: 0 0 25%;
+              -ms-flex: 0 0 25%;
+                  flex: 0 0 25%; }
 
 @media (max-width: 670px) {
   body .header h1 {
