@@ -139,7 +139,7 @@ body {
 				text-align: center;
 				flex: auto;
 				font-family: $sans;
-				padding: 100px 0;
+				padding: 50px 0;
 				color: #fff;
 				margin: auto;
 				max-width: 290px;
@@ -156,6 +156,36 @@ body {
 				p {
 					max-width: 290px;
 					margin: auto;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 670px) {
+	body {
+		.header {
+			h1 {
+				top: 20% !important;
+			}
+
+			h2 {
+				top: 20% !important;
+			}
+		}
+
+		.nav {
+			width: 100%;
+			flex-wrap: wrap;
+
+			a {
+				width: 100%;
+				border-left: none !important;
+				border-bottom: 1px solid #fff;
+				flex: auto !important;
+
+				&.last-link {
+					margin-right: 0 !important;
 				}
 			}
 		}

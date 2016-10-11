@@ -135,7 +135,7 @@ body {
             -ms-flex: auto;
                 flex: auto;
         font-family: Arial, Helvetica, sans-serif;
-        padding: 100px 0;
+        padding: 50px 0;
         color: #fff;
         margin: auto;
         max-width: 290px; }
@@ -147,3 +147,24 @@ body {
         body .content .skills .skill p {
           max-width: 290px;
           margin: auto; }
+
+@media (max-width: 670px) {
+  body .header h1 {
+    top: 20% !important; }
+  body .header h2 {
+    top: 20% !important; }
+  body .nav {
+    width: 100%;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    body .nav a {
+      width: 100%;
+      border-left: none !important;
+      border-bottom: 1px solid #fff;
+      -webkit-box-flex: 1 !important;
+      -webkit-flex: auto !important;
+          -ms-flex: auto !important;
+              flex: auto !important; }
+      body .nav a.last-link {
+        margin-right: 0 !important; } }
