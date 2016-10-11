@@ -14,5 +14,5 @@ var vm = new Vue({
 })
 
 window.onscroll = function () {
-	vm.scroll = document.body.scrollTop;
+	vm.scroll = document.body.scrollTop || window.scrollY;
 }
