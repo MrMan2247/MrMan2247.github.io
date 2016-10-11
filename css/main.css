@@ -164,7 +164,9 @@ body {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-    background-size: 100% auto; }
+    background-size: 100% auto;
+    -webkit-box-shadow: inset 0 2px 50px 4px rgba(40, 30, 20, 0.7);
+            box-shadow: inset 0 2px 50px 4px rgba(40, 30, 20, 0.7); }
     body .content .skills .skill {
       text-align: center;
       -webkit-box-flex: 1;
