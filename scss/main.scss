@@ -92,8 +92,8 @@ body {
 				left: 0;
 				right: 0;
 				bottom: 0;
-				background: #fff;
-				color: #000;
+				background: #d7bb00;
+				color: #fff;
 				-webkit-transform: scaleY(0);
 				transform: scaleY(0);
 				-webkit-transform-origin: 50% 0;
@@ -107,7 +107,7 @@ body {
 			}
 
 			a:hover, a:focus, a:active {
-				color: #000;
+				color: #fff;
 			}
 
 			a:hover:before, a:focus:before, a:active:before {
@@ -130,11 +130,32 @@ body {
 
 		.skills {
 			display: flex;
+			flex-wrap: wrap;
 			background: url('../img/lower-background.jpg');
+			background-size: cover;
 			
 			.skill {
 				text-align: center;
-				flex: 0 0 33%;
+				flex: auto;
+				font-family: $sans;
+				padding: 100px 0;
+				color: #fff;
+				margin: auto;
+				max-width: 290px;
+
+				img {
+					width: 60px;
+					margin-right: -6px;
+
+					&.last-image {
+						width: 47px;
+					}
+				}
+
+				p {
+					max-width: 290px;
+					margin: auto;
+				}
 			}
 		}
 	}
