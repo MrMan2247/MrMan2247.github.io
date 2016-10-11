@@ -9,6 +9,8 @@ $tertiary: #252525;
 $sans: Arial, Helvetica, sans-serif;
 $serif: Times New Roman, Georgia, serif;
 
+$expo: cubic-bezier(0.190, 1.000, 0.220, 1.000);
+
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -35,15 +37,28 @@ body {
 		}
 
 		h2 {
+			@keyframes fade-in-h2 {
+				from {
+					transform: translateY(-100%);
+					opacity: 0;
+				}
+				to {
+					transform: translateY(-50%);
+					opacity: 1;
+				}
+			}
+
 			text-align: center;
 			position: relative;
 			top: 40%;
-			transform: translateY(-50%);
+			transform: translateY(-100%);
+			opacity: 0;
 			color: #fff;
 			font-family: arial;
 			font-size: 3em;
 			margin: 0;
 			text-shadow: 3px 3px 100px #000;
+			animation: 1.5s $expo 2s 1 normal forwards running fade-in-h2;
 		}
 
 		.nav {
