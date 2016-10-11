@@ -117,6 +117,17 @@ body {
 		}
 	}
 
+	.pull-down {
+		text-align: center;
+
+		img {
+			position: absolute;
+			width: 10px;
+			margin-left: -6px;
+			margin-top: -26px;
+		}
+	}
+
 	.content {
 		background: url("../img/background.jpg") center;
 		background-size: cover;
@@ -156,6 +167,40 @@ body {
 				p {
 					max-width: 290px;
 					margin: auto;
+				}
+			}
+		}
+
+		.closing {
+			.closing-content {
+				justify-content: center;
+				display: flex;
+				flex-wrap: wrap;
+				font-family: $sans;
+
+				.left {
+					flex: 0 0 50%;
+					background: url('../img/small-bg.jpg');
+					background-size: cover;
+
+					h1 {
+						font-size: 3em;
+						max-width: 370px;
+						margin: auto;
+						padding: 50px 0;
+					}
+				}
+
+				.right {
+					flex: 0 0 50%;
+					background: url('../img/small-bg2.jpg');
+					background-size: cover;
+					
+					p {
+						max-width: 480px;
+						margin: auto;
+						padding: 100px 0;
+					}
 				}
 			}
 		}
