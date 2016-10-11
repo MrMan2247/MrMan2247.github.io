@@ -254,12 +254,20 @@ body {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
-        display: flex; }
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        width: 970px;
+        margin: auto;
+        flex-wrap: wrap; }
         body .content .photographs .photos .photo {
           -webkit-box-flex: 0;
           -webkit-flex: 0 0 25%;
               -ms-flex: 0 0 25%;
-                  flex: 0 0 25%; }
+                  flex: 0 0 25%;
+          margin: auto;
+          text-align: center; }
 
 @media (max-width: 670px) {
   body .header h1 {
