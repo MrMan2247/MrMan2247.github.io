@@ -291,6 +291,23 @@ body {
 				}
 			}
 		}
+
+		.gallery-image-display {
+			background: #e0c200;
+			height: 100vh;
+
+			h2 {
+				margin: 0;
+				padding: 20px;
+				color: #fff;
+				text-align: center;
+				font-family: $sans;
+			}
+
+			img {
+				width: 100%;
+			}
+		}
 	}
 }
 
