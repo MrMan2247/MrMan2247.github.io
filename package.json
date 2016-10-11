@@ -1,0 +1,24 @@
+{
+  "name": "bailey-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrMan2247/MrMan2247.github.io.git"
+  },
+  "author": "Bailey Cassel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrMan2247/MrMan2247.github.io/issues"
+  },
+  "homepage": "https://github.com/MrMan2247/MrMan2247.github.io#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
