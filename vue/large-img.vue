@@ -29,9 +29,11 @@
 						this.blob = reader.result;
 						var img = new Image();
 						img.src = this.blob;
-						this.width = img.width;
-						this.height = img.height;
-						this.loading = false;
+						img.onload = () => {
+							this.width = img.width;
+							this.height = img.height;
+							this.loading = false;
+						}
 					}
 				});
 			})
