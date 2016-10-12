@@ -14,7 +14,7 @@
 			},
 			styles () {
 				var out = "background-image:url(" + this.background + ");";
-				out += "background-position:0 " + ((this.percent * this.strength) - this.strength) + "px";
+				out += "background-position:0 " + Math.floor(((this.percent * this.strength) - this.strength)) + "px";
 				return out;
 			}
 		}
