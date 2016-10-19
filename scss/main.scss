@@ -148,14 +148,17 @@ body {
 	.content {
 
 		&.home { background: url("../img/background.jpg") center; background-size: cover; }
-		&.design { background: url('../img/photography-bg.jpg') center; background-size: cover; }
 
 		.introduction {
-			max-width: 870px;
 			margin: auto;
 			text-align: center;
 			font-family: $sans;
 			padding: 80px 20px;
+
+			&.design { 
+				background: url('../img/photography-bg.jpg') center; 
+				background-size: cover; 
+			}
 		}
 
 		.skills {
@@ -267,34 +270,161 @@ body {
 			background: url('../img/gallery-bg.jpg');
 
 			.photos {
-				display: flex;
-				flex-wrap: wrap;
 				width: 100%;
 				margin: auto;
-				padding: 50px 0;
+				flex-wrap: wrap;
+				display: flex;
 				flex-wrap: wrap;
 
-				.photo {
-					flex: 0 0 20%;
-					margin: auto;
-					text-align: center;
-					padding: 20px 0;
-					font-family: $sans;
-					color: #fff;
+				a {
+					text-decoration: none;
+					flex: 0 0 50%;
 
-					h4 {
+					.photo {
+						flex: 0 0 20%;
+						text-align: center;
+						padding: 20px 0;
+						width: 100%;
+						height: 200px;
+						font-family: $sans;
+						color: #000;
 						margin: 0;
+						
+
+						&.image1 { 
+							background: url('../img/image1-bw.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image2 { 
+							background: url('../img/image2-bw.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image3 { 
+							background: url('../img/image3-bw.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image4 { 
+							background: url('../img/image4-bw.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image5 { 
+							background: url('../img/image5-bw.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image6 { 
+							background: url('../img/image6-bw.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image7 { 
+							background: url('../img/image7-bw.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image8 { 
+							background: url('../img/image8-bw.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image9 { 
+							background: url('../img/image9-bw.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						h4 {
+							margin: 0;
+							font-size: 2em;
+							position: relative;
+							top: 50%;
+							transform: translateY(-50%);
+							margin: auto;
+							max-width: 396px;
+							background: #fff9;
+							padding: 20px 0;
+						}
 					}
+				}
 
-					p {
-						margin: 0;
+				a:hover, a:focus, a:active {
+					.photo {
+						&.image1 {
+							background: url('../img/image1-hover.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image2 {
+							background: url('../img/image2-hover.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image3 {
+							background: url('../img/image3-hover.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image4 {
+							background: url('../img/image4-hover.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image5 {
+							background: url('../img/image5-hover.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image6 {
+							background: url('../img/image6-hover.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image7 {
+							background: url('../img/image7-hover.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image8 {
+							background: url('../img/image8-hover.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						&.image9 {
+							background: url('../img/image9-hover.jpg') no-repeat; 
+							background-size: cover;
+							background-position: center;
+						}
+
+						h4 {
+							background: #e0c20099;
+						}
 					}
 				}
 			}
 		}
 
 		.gallery-image-display {
-			background: #e0c200;
+			background: #000;
 			height: 100vh;
 
 			h2 {
