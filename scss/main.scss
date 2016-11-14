@@ -11,6 +11,11 @@ $serif: Times New Roman, Georgia, serif;
 
 $expo: cubic-bezier(0.190, 1.000, 0.220, 1.000);
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -270,154 +275,124 @@ body {
 			background: url('../img/gallery-bg.jpg');
 
 			.photos {
-				width: 100%;
+				max-width: 970px;
 				margin: auto;
-				flex-wrap: wrap;
 				display: flex;
 				flex-wrap: wrap;
+				justify-content: center;
+
+				.row {
+					display: flex;
+					flex-wrap: wrap;
+				}
 
 				a {
 					text-decoration: none;
-					flex: 0 0 50%;
 
-					.photo {
-						flex: 0 0 20%;
-						text-align: center;
-						padding: 20px 0;
-						width: 100%;
-						height: 200px;
-						font-family: $sans;
-						color: #000;
-						margin: 0;
-						
+					button {
+					    border: 5px solid transparent;
+					    background-color: #000;
+						color: #FFF;
+					    overflow: hidden;
+					    width: 200px;
+					    transition: 
+					    all        1.2s,
+					    border     0.5s 1.2s,
+					    box-shadow 0.3s 1.5s;
+					    white-space: nowrap;
+					    text-indent: 50px;
+					    font-weight: bold;
+					    cursor: pointer;
+					    padding: 5px 30px;
 
-						&.image1 { 
-							background: url('../img/image1-bw.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
+						  span {
+						    display: inline-block;
+						    transform: translateX(300px);
+						    font-weight: normal;
+						    opacity: 0;
+						    transition: 
+						    opacity 0.1s 0.5s,
+						    transform 0.4s 0.5s;
 						}
+						&:hover {
+						    text-indent: 0;
+						    background: #e0c200;
+						    color: #fff;
+						    width: 500px;
+						    border: 5px solid #fff;
+						    box-shadow: 3px 3px 2px rgba(black, 0.15);
+						    border-radius: 40px;
+						    padding: 15px 30px;
+						    margin: 0 10px;
 
-						&.image2 { 
-							background: url('../img/image2-bw.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
-
-						&.image3 { 
-							background: url('../img/image3-bw.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
-
-						&.image4 { 
-							background: url('../img/image4-bw.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
-
-						&.image5 { 
-							background: url('../img/image5-bw.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
-
-						&.image6 { 
-							background: url('../img/image6-bw.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
-
-						&.image7 { 
-							background: url('../img/image7-bw.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
-
-						&.image8 { 
-							background: url('../img/image8-bw.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
-
-						&.image9 { 
-							background: url('../img/image9-bw.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
-
-						h4 {
-							margin: 0;
-							font-size: 2em;
-							position: relative;
-							top: 50%;
-							transform: translateY(-50%);
-							margin: auto;
-							max-width: 396px;
-							background: #fff9;
-							padding: 20px 0;
-						}
+						    span {
+						       transform: translateX(0);
+						       opacity: 1;
+						    }
+					    }
 					}
 				}
 
-				a:hover, a:focus, a:active {
-					.photo {
-						&.image1 {
-							background: url('../img/image1-hover.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
+				.photo {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					background: #FFE8A3;
+					font-family: 'Montserrat', sans-serif;
+					height: 200px;
 
-						&.image2 {
-							background: url('../img/image2-hover.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
+					&.image1 { 
+						background: url('../img/image1-hover.jpg') no-repeat; 
+						background-size: cover;
+						background-position: center;
+					}
 
-						&.image3 {
-							background: url('../img/image3-hover.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
+					&.image2 { 
+						background: url('../img/image2-hover.jpg') no-repeat; 
+						background-size: cover;
+						background-position: center;
+					}
 
-						&.image4 {
-							background: url('../img/image4-hover.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
+					&.image3 { 
+						background: url('../img/image3-hover.jpg') no-repeat; 
+						background-size: cover;
+						background-position: center;
+					}
 
-						&.image5 {
-							background: url('../img/image5-hover.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
+					&.image4 { 
+						background: url('../img/image4-hover.jpg') no-repeat; 
+						background-size: cover;
+						background-position: center;
+					}
 
-						&.image6 {
-							background: url('../img/image6-hover.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
+					&.image5 { 
+						background: url('../img/image5-hover.jpg') no-repeat; 
+						background-size: cover;
+						background-position: center;
+					}
 
-						&.image7 {
-							background: url('../img/image7-hover.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
+					&.image6 { 
+						background: url('../img/image6-hover.jpg') no-repeat; 
+						background-size: cover;
+						background-position: center;
+					}
 
-						&.image8 {
-							background: url('../img/image8-hover.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
+					&.image7 { 
+						background: url('../img/image7-hover.jpg') no-repeat; 
+						background-size: cover;
+						background-position: center;
+					}
 
-						&.image9 {
-							background: url('../img/image9-hover.jpg') no-repeat; 
-							background-size: cover;
-							background-position: center;
-						}
+					&.image8 { 
+						background: url('../img/image8-hover.jpg') no-repeat; 
+						background-size: cover;
+						background-position: center;
+					}
 
-						h4 {
-							background: #e0c20099;
-						}
+					&.image9 { 
+						background: url('../img/image9-hover.jpg') no-repeat; 
+						background-size: cover;
+						background-position: center;
 					}
 				}
 			}
@@ -437,6 +412,25 @@ body {
 
 			img {
 				width: 100%;
+			}
+		}
+	}
+}
+
+@media (max-width: 960px) {
+	body {
+		.content {
+			.photographs {
+				.photos {
+					.row {
+						width: 100%;
+					}
+					
+					.photo {
+						overflow: hidden;
+						flex: 0 0 100%;
+					}
+				}
 			}
 		}
 	}
