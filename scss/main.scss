@@ -28,8 +28,16 @@ body {
 		background-size: cover;
 		height: 100vh;
 
-		&.home { background: url("../img/background3-bw.jpg") center; background-size: cover; }
-		&.design { background: url("../img/masthead-design.jpg") center; background-size: cover; }
+		video {
+			position: fixed;
+			top: -50px;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			overflow: hidden;
+			z-index: -100;
+			width: 100%;
+		}
 
 		h1 {
 			text-align: center;
@@ -151,6 +159,7 @@ body {
 	}
 
 	.content {
+		box-shadow: 0 2px 50px 4px rgba(40, 30, 20, 0.7);
 
 		&.home { background: url("../img/background.jpg") center; background-size: cover; }
 
