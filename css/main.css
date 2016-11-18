@@ -25,13 +25,15 @@ body {
     height: 100vh; }
     body .header video {
       position: fixed;
-      top: -50px;
       right: 0;
       bottom: 0;
       left: 0;
       overflow: hidden;
+      min-width: 100%;
+      min-height: 100%;
       z-index: -100;
-      width: 100%; }
+      background-position: center;
+      background-size: cover; }
     body .header h1 {
       text-align: center;
       position: relative;
@@ -411,23 +413,12 @@ body {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%; } }
 
-@media (max-width: 670px) {
+@media (max-width: 525px) {
   body .header h1 {
-    top: 20% !important; }
+    font-size: 3em;
+    top: 35% !important; }
   body .header h2 {
-    top: 20% !important; }
-  body .nav {
-    width: 100%;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; }
-    body .nav a {
-      width: 100%;
-      border-left: none !important;
-      border-bottom: 1px solid #fff;
-      -webkit-box-flex: 1 !important;
-      -webkit-flex: auto !important;
-          -ms-flex: auto !important;
-              flex: auto !important; }
-      body .nav a.last-link {
-        margin-right: 0 !important; } }
+    font-size: 2em;
+    top: 25% !important; }
+  body .header .nav a {
+    font-size: 0.8em; } }
