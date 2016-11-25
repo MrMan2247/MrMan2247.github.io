@@ -28,7 +28,8 @@
       width: 50px;
       background: #440000;
       position: absolute;
-      left: 0; }
+      left: 0;
+      display: block; }
     html body .header .nav a {
       -webkit-box-flex: 0;
       -webkit-flex: 0 0 100%;
@@ -127,6 +128,8 @@ body {
           -ms-flex-pack: center;
               justify-content: center;
       margin: auto; }
+      body .header .nav .menu-btn {
+        display: none; }
       body .header .nav a {
         display: inline-block;
         vertical-align: middle;
