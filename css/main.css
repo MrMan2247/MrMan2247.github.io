@@ -2,6 +2,14 @@
  * App Specific Settings
  */
 @media screen and (max-width: 960px) {
+  html body .content .photographs .photos .row {
+    width: 100%; }
+  html body .content .photographs .photos .photo {
+    overflow: hidden;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; }
   html body .header .nav {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -14,7 +22,9 @@
     -webkit-transition: 1s -webkit-transform ease;
     transition: 1s -webkit-transform ease;
     transition: 1s transform ease;
-    transition: 1s transform ease, 1s -webkit-transform ease; }
+    transition: 1s transform ease, 1s -webkit-transform ease;
+    z-index: 1;
+    background: #e0c200; }
     html body .header .nav.active {
       -webkit-transform: translateX(-80%);
           -ms-transform: translateX(-80%);
@@ -24,19 +34,49 @@
           -ms-transform: translateX(-100%);
               transform: translateX(-100%);
       color: #FFF;
-      height: 10px;
-      width: 50px;
-      background: #440000;
+      height: 71px;
+      width: 71px;
+      background-size: 45px !important;
       position: absolute;
       left: 0;
-      display: block; }
+      display: block;
+      background: #e0c200 url("../img/menu-btn.jpg") center center no-repeat; }
     html body .header .nav a {
       -webkit-box-flex: 0;
       -webkit-flex: 0 0 100%;
           -ms-flex: 0 0 100%;
-              flex: 0 0 100%; }
+              flex: 0 0 100%;
+      border-left: none;
+      border-bottom: 1px solid #fff;
+      text-align: left;
+      margin-left: 80px; }
+      html body .header .nav a.last-link {
+        margin-right: 0;
+        border: none; }
       html body .header .nav a::before {
         display: none; } }
+
+@media screen and (max-width: 800px) {
+  html body .content .closing .closing-content .right {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; }
+  html body .content .closing .closing-content .left {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; } }
+
+@media screen and (max-width: 525px) {
+  html body .header h1 {
+    font-size: 3em;
+    top: 35% !important; }
+  html body .header h2 {
+    font-size: 2em;
+    top: 30% !important; }
+  html body .header .nav a {
+    font-size: 0.8em; } }
 
 @-webkit-keyframes fadein {
   from {
@@ -305,7 +345,7 @@ body {
         body .content .closing .closing-content .right p {
           max-width: 480px;
           margin: auto;
-          padding: 80px 0; }
+          padding: 80px 10px; }
     body .content .photographs {
       background: url("../img/gallery-bg.jpg"); }
       body .content .photographs .photos {
@@ -437,23 +477,3 @@ body {
         font-family: Arial, Helvetica, sans-serif; }
       body .content .gallery-image-display img {
         width: 100%; }
-
-@media (max-width: 960px) {
-  body .content .photographs .photos .row {
-    width: 100%; }
-  body .content .photographs .photos .photo {
-    overflow: hidden;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%; } }
-
-@media (max-width: 525px) {
-  body .header h1 {
-    font-size: 3em;
-    top: 35% !important; }
-  body .header h2 {
-    font-size: 2em;
-    top: 25% !important; }
-  body .header .nav a {
-    font-size: 0.8em; } }

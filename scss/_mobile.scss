@@ -1,5 +1,20 @@
 @media screen and (max-width: 960px) {html {
 	body {
+		.content {
+			.photographs {
+				.photos {
+					.row {
+						width: 100%;
+					}
+					
+					.photo {
+						overflow: hidden;
+						flex: 0 0 100%;
+					}
+				}
+			}
+		}
+
 		.header {
 			.nav {
 				flex-wrap: wrap;
@@ -7,6 +22,8 @@
 				position: fixed;
 				transform: translateX(0);
 				transition: 1s transform ease;
+				z-index: 1;
+				background: #e0c200;
 
 				&.active {
 					transform: translateX(-80%);
@@ -15,20 +32,70 @@
 				.menu-btn {
 					transform: translateX(-100%);
 					color: #FFF;
-					height: 10px;
-					width: 50px;
-					background: #440000;
+					height: 71px;
+					width: 71px;
+					background-size: 45px !important;
 					position: absolute;
 					left: 0;
 					display: block;
+					background: #e0c200 url("../img/menu-btn.jpg") center center no-repeat;
 				}
 
 				a {
 					flex: 0 0 100%;
+					border-left: none;
+					border-bottom: 1px solid #fff;
+					text-align: left;
+					margin-left: 80px;
+
+					&.last-link {
+						margin-right: 0;
+						border: none;
+					}
 
 					&::before {
 						display: none;
 					}
+				}
+			}
+		}
+	}
+}}
+
+@media screen and (max-width: 800px) {html {
+	body {
+		.content {
+			.closing {
+				.closing-content {
+					.right {
+						flex: 0 0 100%;
+					}
+
+					.left {
+						flex: 0 0 100%;
+					}
+				}
+			}
+		}
+	}
+}}
+
+@media screen and (max-width: 525px) {html {
+	body {
+		.header {
+			h1 {
+				font-size: 3em;
+				top: 35% !important;
+			}
+
+			h2 {
+				font-size: 2em;
+				top: 30% !important;
+			}
+
+			.nav {
+				a {
+					font-size: 0.8em;
 				}
 			}
 		}

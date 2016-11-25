@@ -86,7 +86,6 @@ body {
 
 			.menu-btn {
 				display: none;
-				// hop to it dude 🐇 enricks!
 			}
 
 			a {
@@ -265,7 +264,7 @@ body {
 					p {
 						max-width: 480px;
 						margin: auto;
-						padding: 80px 0;
+						padding: 80px 10px;
 					}
 				}
 			}
@@ -412,47 +411,6 @@ body {
 
 			img {
 				width: 100%;
-			}
-		}
-	}
-}
-
-@media (max-width: 960px) {
-	body {
-		.content {
-			.photographs {
-				.photos {
-					.row {
-						width: 100%;
-					}
-					
-					.photo {
-						overflow: hidden;
-						flex: 0 0 100%;
-					}
-				}
-			}
-		}
-	}
-}
-
-@media (max-width: 525px) {
-	body {
-		.header {
-			h1 {
-				font-size: 3em;
-				top: 35% !important;
-			}
-
-			h2 {
-				font-size: 2em;
-				top: 25% !important;
-			}
-
-			.nav {
-				a {
-					font-size: 0.8em;
-				}
 			}
 		}
 	}
