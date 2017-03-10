@@ -49,7 +49,9 @@
       border-left: none;
       border-bottom: 1px solid #fff;
       text-align: left;
-      margin-left: 80px; }
+      margin-left: 80px;
+      padding-left: 20px;
+      font-size: 0.8em; }
       html body .header .nav a.last-link {
         margin-right: 0;
         border: none; }
@@ -74,9 +76,7 @@
     top: 35% !important; }
   html body .header h2 {
     font-size: 2em;
-    top: 30% !important; }
-  html body .header .nav a {
-    font-size: 0.8em; } }
+    top: 30% !important; } }
 
 @-webkit-keyframes fadein {
   from {

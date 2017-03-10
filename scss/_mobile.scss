@@ -47,6 +47,8 @@
 					border-bottom: 1px solid #fff;
 					text-align: left;
 					margin-left: 80px;
+					padding-left: 20px;
+					font-size: 0.8em;
 
 					&.last-link {
 						margin-right: 0;
@@ -91,12 +93,6 @@
 			h2 {
 				font-size: 2em;
 				top: 30% !important;
-			}
-
-			.nav {
-				a {
-					font-size: 0.8em;
-				}
 			}
 		}
 	}
