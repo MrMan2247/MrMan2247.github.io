@@ -158,6 +158,54 @@ body {
 
 		&.home { background: url("../img/background.jpg") center; background-size: cover; }
 
+		&.web { 
+			text-align: center;
+			background: #fff;
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+
+			.example-head {
+				flex: 1 1 100%;
+				padding: 40px 0;
+
+				h2 {
+					font-family: arial;
+				}
+
+				p {
+					font-family: arial;
+				}
+			}
+
+			.example {
+				flex: 1 1 50%;
+				padding: 40px 0;
+				max-width: 550px;
+				margin: auto;
+				text-align: left;
+
+				p {
+					font-family: arial;
+					padding: 0 30px;
+
+					span {
+						font-weight: bold;
+					}
+				}
+
+				img {
+					width: 100%;
+
+					&.citrusmedia {
+						width: 70px;
+						position: relative;
+						top: 2px;
+					}
+				}
+			}
+		}
+
 		.introduction {
 			margin: auto;
 			text-align: center;

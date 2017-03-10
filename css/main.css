@@ -242,6 +242,47 @@ body {
     body .content.home {
       background: url("../img/background.jpg") center;
       background-size: cover; }
+    body .content.web {
+      text-align: center;
+      background: #fff;
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+      body .content.web .example-head {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 100%;
+            -ms-flex: 1 1 100%;
+                flex: 1 1 100%;
+        padding: 40px 0; }
+        body .content.web .example-head h2 {
+          font-family: arial; }
+        body .content.web .example-head p {
+          font-family: arial; }
+      body .content.web .example {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 50%;
+            -ms-flex: 1 1 50%;
+                flex: 1 1 50%;
+        padding: 40px 0;
+        max-width: 550px;
+        margin: auto;
+        text-align: left; }
+        body .content.web .example p {
+          font-family: arial;
+          padding: 0 30px; }
+          body .content.web .example p span {
+            font-weight: bold; }
+        body .content.web .example img {
+          width: 100%; }
+          body .content.web .example img.citrusmedia {
+            width: 70px;
+            position: relative;
+            top: 2px; }
     body .content .introduction {
       margin: auto;
       text-align: center;
