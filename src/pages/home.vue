@@ -65,10 +65,10 @@
 </template>
 
 <script>
-import SpinIn from '../components/spin-in';
-import VideoBg from '../components/video-bg';
+import SpinIn from '../components/spin-in.vue';
+import VideoBg from '../components/Video-bg.vue';
 
-import Odometer from '../components/Odometer';
+import Odometer from '../components/Odometer.vue';
 
 export default {
   components: { SpinIn, Odometer, VideoBg },
