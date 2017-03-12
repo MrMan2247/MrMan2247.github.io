@@ -1,6 +1,9 @@
 <template>
 	<div class="wrapper">
-    <video-bg video="../static/timelapse2-stock.mp4" />
+    <div class="masthead">
+      <odometer>Hey</odometer>
+      <video-bg video="../static/timelapse2-stock.mp4" />
+    </div>
 		<div class="pull-down">
 			<img src="../assets/img/pull-down.png">
 		</div>
@@ -71,11 +74,13 @@
 <script>
 import SpinIn from '../components/spin-in';
 import VideoBg from '../components/video-bg';
+
+import Odometer from '../components/Odometer';
 import Slider from '../components/Slider/Slider';
 import Slide from '../components/Slider/Slide';
 import Effect from '../components/Slider/Effect';
 
 export default {
-  components: { SpinIn, Slider, Slide, Effect, VideoBg },
+  components: { SpinIn, Odometer, Slider, Slide, Effect, VideoBg },
 };
 </script>
