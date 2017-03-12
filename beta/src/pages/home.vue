@@ -61,8 +61,11 @@
 <script>
 import SpinIn from '../components/spin-in';
 import VideoBg from '../components/video-bg';
+import Slider from '../components/Slider/Slider';
+import Slide from '../components/Slider/Slide';
+import Effect from '../components/Slider/Effect';
 
 export default {
-  components: { SpinIn , VideoBg },
+  components: { SpinIn, Slider, Slide, Effect, VideoBg },
 };
 </script>
