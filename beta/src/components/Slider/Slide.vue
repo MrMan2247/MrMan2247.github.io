@@ -1,7 +1,7 @@
 <template>
   <div :class="'slide' + (animation ? ' ' + animation : '') + (this.$parent.fade ? ' fade-mode' : '')" :style='style'>
     <div class="slide-content">
-      <slot name="content"></slot>
+      <slot></slot>
     </div>
   </div>
 </template>
@@ -59,7 +59,7 @@
 </script>
 
 <style lang="scss">
-  @import '../../assets/sass/sass-only/_utils.scss';
+  @import '../../assets/scss/sass-only/_utils.scss';
 
   /**
    * Keyframes

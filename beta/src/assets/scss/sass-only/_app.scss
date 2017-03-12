@@ -1,0 +1,30 @@
+//
+// Fonts
+//
+
+$body: alternate-gothic-no-1-d, sans-serif;
+$serif: droid-serif, Georgia, serif;
+
+//
+// Define all app base specific settings
+//
+
+$primary: #ee1a3b;
+$secondary: #005696;
+$tertiary: #1d2025;
+
+//
+// Global properties for app
+//
+
+body,
+html {
+    margin: 0;
+    width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

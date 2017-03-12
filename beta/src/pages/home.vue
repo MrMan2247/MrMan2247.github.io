@@ -25,6 +25,16 @@
 				</p>
 				<h4>Look no further.</h4>
 			</div>
+
+      <slider :buttons="true">
+        <slide>
+          Slide 1
+        </slide>
+        <slide>
+          Slide 2
+        </slide>
+      </slider>
+
 			<page-break class="skills" background="../assets/img/lower-background.jpg" strength="300">
 				<div class="skill">
 					<img src="../assets/img/icon-responsive.png"/>

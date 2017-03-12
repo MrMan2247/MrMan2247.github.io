@@ -39,7 +39,7 @@
 </script>
 
 <style lang="scss">
-  @import '../../assets/sass/sass-only/_utils.scss';
+  @import '../../assets/scss/sass-only/_utils.scss';
 
   /**
    * Effects
