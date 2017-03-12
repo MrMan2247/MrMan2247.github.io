@@ -53,9 +53,9 @@
 							Curious about how I know what I know? Checkout my experience and schooling and see everything about where and how I learned to do my job.
 						</p>
 						<div class="experience-display">
-							<a href="experience.html">
+							<router-link to="/experience">
 								<div class="experience-btn">See Experience</div>
-							</a>
+							</router-link>
 						</div>
 					</div>
 				</div>
