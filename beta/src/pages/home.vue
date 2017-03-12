@@ -1,6 +1,10 @@
 <template>
 	<div class="wrapper">
-    <video-bg video="../static/timelapse2-stock.mp4" />
+    <div class="masthead">
+      <odometer delay="0">Hey</odometer>
+      <video-bg video="../static/timelapse2-stock.mp4" />
+    </div>
+
 		<div class="pull-down">
 			<img src="../assets/img/pull-down.png">
 		</div>
@@ -22,7 +26,7 @@
         </slide>
       </slider>
 
-			<page-break class="skills" background="../assets/img/lower-background.jpg" strength="300">
+			<!--page-break class="skills" background="../assets/img/lower-background.jpg" strength="300">
 				<div class="skill">
 					<img src="../assets/img/icon-responsive.png"/>
 					<h2>Responsive<br>Web<br>Design</h2>
@@ -44,7 +48,7 @@
 						All websites are kept up to date with the latest in styles that will draw in users and make sure that your website is one-of-a-kind compared to the other guys.
 					</p>
 				</div>
-			</page-break>
+			</page-break-->
 			<div class="closing">
 				<div class="closing-content">
 					<div class="left">
@@ -71,11 +75,13 @@
 <script>
 import SpinIn from '../components/spin-in';
 import VideoBg from '../components/video-bg';
+
+import Odometer from '../components/Odometer';
 import Slider from '../components/Slider/Slider';
 import Slide from '../components/Slider/Slide';
 import Effect from '../components/Slider/Effect';
 
 export default {
-  components: { SpinIn, Slider, Slide, Effect, VideoBg },
+  components: { SpinIn, Odometer, Slider, Slide, Effect, VideoBg },
 };
 </script>
