@@ -1,12 +1,12 @@
 <template>
-  <div class="odometer">
+  <h1 class="odometer">
     <span v-for="word in chars" class="word">
       <span v-for="char in word" :style="speedAdjustment" :class="'mask' + (time > char.index ? ' active' : '')">
         <span v-html="char.char" :aria-hidden="backup" class="character"></span>
       </span>
     </span>
     <div class="backup" style="display: none;" v-if="backup" v-html="content"></div>
-  </div>
+  </h1>
 </template>
 
 <script>
@@ -63,7 +63,7 @@
 </script>
 
 <style lang="scss">
-  .odometer {
+  h1.odometer {
     >span {
       display: inline-block;
 
@@ -82,6 +82,8 @@
         }
 
         &.active {
+          transform: translateY(100%);
+
           >span {
             transform: translateY(0);
           }

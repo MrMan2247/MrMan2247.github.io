@@ -1,9 +1,10 @@
 <template>
 	<div class="wrapper">
     <div class="masthead">
-      <odometer>Hey</odometer>
+      <odometer delay="0">Hey</odometer>
       <video-bg video="../static/timelapse2-stock.mp4" />
     </div>
+
 		<div class="pull-down">
 			<img src="../assets/img/pull-down.png">
 		</div>
@@ -25,7 +26,7 @@
         </slide>
       </slider>
 
-			<page-break class="skills" background="../assets/img/lower-background.jpg" strength="300">
+			<!--page-break class="skills" background="../assets/img/lower-background.jpg" strength="300">
 				<div class="skill">
 					<img src="../assets/img/icon-responsive.png"/>
 					<h2>Responsive<br>Web<br>Design</h2>
@@ -47,7 +48,7 @@
 						All websites are kept up to date with the latest in styles that will draw in users and make sure that your website is one-of-a-kind compared to the other guys.
 					</p>
 				</div>
-			</page-break>
+			</page-break-->
 			<div class="closing">
 				<div class="closing-content">
 					<div class="left">
