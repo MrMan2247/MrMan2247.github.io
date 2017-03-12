@@ -230,22 +230,28 @@ body {
 					flex: 0 0 50%;
 					background: url('./assets/img/small-bg.jpg');
 					background-size: cover;
+          padding: 70px 20px;
 
 					h1 {
 						font-size: 3em;
-						max-width: 370px;
+						max-width: 550px;
 						margin: auto;
-						padding: 50px 0;
-					}
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);					}
 				}
 
 				.right {
 					flex: 0 0 50%;
 					background: url('./assets/img/small-bg2.jpg');
 					background-size: cover;
+          padding: 70px 20px;
 
 					.experience-display {
 						text-align: center;
+            position: relative;
+            top: 60%;
+            transform: translateY(-50%);
 
 						a {
 							display: inline-block;
@@ -256,11 +262,10 @@ body {
 							overflow: hidden;
 							transition-duration: 0.3s;
 							transition-property: color, background-color;
-							padding: 20px 50px 20px 50px;
+							padding: 10px 50px 10px 50px;
 							background: #e0c200;
 							border-radius: 10px;
 							text-align: center;
-							margin-top: -70px;
 							color: #fff;
 							text-decoration: none;
 
@@ -281,8 +286,11 @@ body {
 
 					p {
 						max-width: 480px;
+            text-align: center;
 						margin: auto;
-						padding: 80px 10px;
+            position: relative;
+            top: 35%;
+            transform: translateY(-50%);
 					}
 				}
 			}

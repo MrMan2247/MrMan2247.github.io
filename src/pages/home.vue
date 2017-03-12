@@ -45,12 +45,12 @@
 				<div class="closing-content">
 					<div class="left">
 						<h1>
-							Where does this knowledge come from!?
+							"What makes you better than the other guys?"
 						</h1>
 					</div>
 					<div class="right">
 						<p>
-							Curious about how I know what I know? Checkout my experience and schooling and see everything about where and how I learned to do my job.
+							Want to see more about what I do?
 						</p>
 						<div class="experience-display">
 							<router-link to="/experience">
