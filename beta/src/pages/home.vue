@@ -2,7 +2,7 @@
 	<div class="wrapper">
     <div class="masthead">
       <odometer delay="0">Bailey Cassel</odometer>
-      <h2>Inovative Design</h2>
+      <h2>Innovative Design</h2>
       <video-bg video="../static/timelapse2-stock.mp4" />
     </div>
 

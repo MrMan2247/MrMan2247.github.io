@@ -441,8 +441,8 @@ body {
   h1 {
     text-align: center;
     position: relative;
-    top: 40%;
-    transform: translateY(-50%);
+    top: 50%;
+    transform: translateY(calc(-50% - 0px));
     color: #fff;
     font-family: arial;
     font-size: 5em;

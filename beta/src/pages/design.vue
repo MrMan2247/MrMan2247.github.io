@@ -1,5 +1,9 @@
 <template>
 	<div class="wrapper">
+    <div class="masthead">
+      <odometer delay="0">Bailey Cassel</odometer>
+      <h2>Innovative Design</h2>
+    </div>
     <video-bg video="../static/timelapse2-stock.mp4" />
 		<div class="pull-down">
 			<img src="../assets/img/pull-down.png">
