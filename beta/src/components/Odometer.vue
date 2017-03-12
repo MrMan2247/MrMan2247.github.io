@@ -82,7 +82,7 @@
         }
 
         &.active {
-          transform: translateY(100%);
+          transform: translateY(105%);
 
           >span {
             transform: translateY(0);
