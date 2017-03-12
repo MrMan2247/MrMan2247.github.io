@@ -73,8 +73,11 @@
 
 <script>
 import SpinIn from '../components/spin-in';
+import Slider from '../components/Slider/Slider';
+import Slide from '../components/Slider/Slide';
+import Effect from '../components/Slider/Effect';
 
 export default {
-  components: { SpinIn },
+  components: { SpinIn, Slider, Slide, Effect },
 };
 </script>
