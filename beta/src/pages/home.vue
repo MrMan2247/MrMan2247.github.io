@@ -2,7 +2,7 @@
 	<div class="wrapper">
 		<div class="header">
 			<video loop="loop" autoplay="autoplay">
-				<source src="../assets/img/timelapse2-stock.mp4">
+				<source src="../static/timelapse2-stock.mp4">
 			</video>
 			<div class="nav">
 				<div class="menu-btn"></div>
@@ -25,7 +25,7 @@
 				</p>
 				<h4>Look no further.</h4>
 			</div>
-			<page-break class="skills" background="img/lower-background.jpg" strength="300">
+			<page-break class="skills" background="../assets/img/lower-background.jpg" strength="300">
 				<div class="skill">
 					<img src="../assets/img/icon-responsive.png"/>
 					<h2>Responsive<br>Web<br>Design</h2>
@@ -70,3 +70,11 @@
 		</div>
 	</div>
 </template>
+
+<script>
+import SpinIn from '../components/spin-in';
+
+export default {
+  components: { SpinIn },
+};
+</script>
