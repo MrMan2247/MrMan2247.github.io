@@ -80,7 +80,9 @@ import Slider from '../components/Slider/Slider';
 import Slide from '../components/Slider/Slide';
 import Effect from '../components/Slider/Effect';
 
+import Odometer from '../components/Odometer';
+
 export default {
-  components: { SpinIn, Slider, Slide, Effect, VideoBg },
+  components: { SpinIn, Slider, Slide, Effect, VideoBg, Odometer },
 };
 </script>

@@ -27,7 +27,9 @@
 import SpinIn from '../components/spin-in';
 import VideoBg from '../components/video-bg';
 
+import Odometer from '../components/Odometer';
+
 export default {
-  components: { SpinIn , VideoBg },
+  components: { SpinIn , VideoBg, Odometer },
 };
 </script>
