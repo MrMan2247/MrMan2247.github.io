@@ -18,28 +18,19 @@ $expo: cubic-bezier(0.190, 1.000, 0.220, 1.000);
     to   { opacity: 1; }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
 	box-sizing: border-box;
 	margin: 0;
 	width: 100%;
 
-	.header {
+	header {
 		width: 100%;
 		background-size: cover;
 		height: 100vh;
-
-		video {
-			position: fixed;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			overflow: hidden;
-			min-width: 100%;
-			min-height: 100%;
-			z-index: -100;
-			background-position: center;
-			background-size: cover;
-		}
 
 		h1 {
 			text-align: center;
@@ -158,7 +149,7 @@ body {
 
 		&.home { background: url("./assets/img/background.jpg") center; background-size: cover; }
 
-		&.web { 
+		&.web {
 			text-align: center;
 			background: #fff;
 			width: 100%;
@@ -212,9 +203,9 @@ body {
 			font-family: $sans;
 			padding: 80px 20px;
 
-			&.design { 
-				background: url('./assets/img/photography-bg.jpg') center; 
-				background-size: cover; 
+			&.design {
+				background: url('./assets/img/photography-bg.jpg') center;
+				background-size: cover;
 			}
 		}
 
@@ -223,7 +214,7 @@ body {
 			flex-wrap: wrap;
 			background-size: 100% auto;
 			box-shadow: inset 0 2px 50px 4px rgba(40,30,20,0.7);
-			
+
 			.skill {
 				text-align: center;
 				flex: auto;
@@ -342,7 +333,7 @@ body {
 						color: #FFF;
 					    overflow: hidden;
 					    width: 200px;
-					    transition: 
+					    transition:
 					    all        1.2s,
 					    border     0.5s 1.2s,
 					    box-shadow 0.3s 1.5s;
@@ -357,7 +348,7 @@ body {
 						    transform: translateX(300px);
 						    font-weight: normal;
 						    opacity: 0;
-						    transition: 
+						    transition:
 						    opacity 0.1s 0.5s,
 						    transform 0.4s 0.5s;
 						}
@@ -388,56 +379,56 @@ body {
 					font-family: 'Montserrat', sans-serif;
 					height: 200px;
 
-					&.image1 { 
-						background: url('./assets/img/image1-hover.jpg') no-repeat; 
+					&.image1 {
+						background: url('./assets/img/image1-hover.jpg') no-repeat;
 						background-size: cover;
 						background-position: center;
 					}
 
-					&.image2 { 
-						background: url('./assets/img/image2-hover.jpg') no-repeat; 
+					&.image2 {
+						background: url('./assets/img/image2-hover.jpg') no-repeat;
 						background-size: cover;
 						background-position: center;
 					}
 
-					&.image3 { 
-						background: url('./assets/img/image3-hover.jpg') no-repeat; 
+					&.image3 {
+						background: url('./assets/img/image3-hover.jpg') no-repeat;
 						background-size: cover;
 						background-position: center;
 					}
 
-					&.image4 { 
-						background: url('./assets/img/image4-hover.jpg') no-repeat; 
+					&.image4 {
+						background: url('./assets/img/image4-hover.jpg') no-repeat;
 						background-size: cover;
 						background-position: center;
 					}
 
-					&.image5 { 
-						background: url('./assets/img/image5-hover.jpg') no-repeat; 
+					&.image5 {
+						background: url('./assets/img/image5-hover.jpg') no-repeat;
 						background-size: cover;
 						background-position: center;
 					}
 
-					&.image6 { 
-						background: url('./assets/img/image6-hover.jpg') no-repeat; 
+					&.image6 {
+						background: url('./assets/img/image6-hover.jpg') no-repeat;
 						background-size: cover;
 						background-position: center;
 					}
 
-					&.image7 { 
-						background: url('./assets/img/image7-hover.jpg') no-repeat; 
+					&.image7 {
+						background: url('./assets/img/image7-hover.jpg') no-repeat;
 						background-size: cover;
 						background-position: center;
 					}
 
-					&.image8 { 
-						background: url('./assets/img/image8-hover.jpg') no-repeat; 
+					&.image8 {
+						background: url('./assets/img/image8-hover.jpg') no-repeat;
 						background-size: cover;
 						background-position: center;
 					}
 
-					&.image9 { 
-						background: url('./assets/img/image9-hover.jpg') no-repeat; 
+					&.image9 {
+						background: url('./assets/img/image9-hover.jpg') no-repeat;
 						background-size: cover;
 						background-position: center;
 					}
