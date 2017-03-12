@@ -1,21 +1,8 @@
 <template>
 	<div class="wrapper">
-		<div class="header">
-			<video loop="loop" autoplay="autoplay">
-				<source src="../img/camerazoom2-stock.mp4">
-			</video>
-			<div class="nav">
-				<div class="menu-btn"></div>
-				<a class="first-link" href="index.html">Home</a>
-				<a href="design.html">Photography</a>
-				<a href="web.html">Website Design</a>
-				<a class="last-link" href="experience.html">Experience</a>
-			</div>
-			<spin-in>Photography</spin-in>
-			<h2>Done right</h2>
-		</div>
+    <video-bg video="../static/timelapse2-stock.mp4" />
 		<div class="pull-down">
-			<img src="../img/pull-down.png">
+			<img src="../assets/img/pull-down.png">
 		</div>
 		<div class="content design">
 			<div class="introduction design">
@@ -31,3 +18,12 @@
 		</div>
 	</div>
 </template>
+
+<script>
+import SpinIn from '../components/spin-in';
+import VideoBg from '../components/video-bg';
+
+export default {
+  components: { SpinIn , VideoBg },
+};
+</script>

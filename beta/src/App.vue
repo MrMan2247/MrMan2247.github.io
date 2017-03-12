@@ -1,12 +1,18 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <dom/>
+    <main>
+      <router-view></router-view>
+    </main>
   </div>
 </template>
 
 <script>
+import Dom from './partials/dom'
+
 export default {
   name: 'app',
+  components: { Dom }
 };
 </script>
 
