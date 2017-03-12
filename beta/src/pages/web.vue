@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-
-<html>
-<head>
-	<meta name="viewport" content="width=device-width"/>
-	<title>Bailey's Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-<body>
+<template>
 	<div class="wrapper">
 		<div class="header">
 			<video loop="loop" autoplay="autoplay">
@@ -84,10 +76,4 @@
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="/js/build.js"></script>
-	<script type="text/javascript" src="/js/nav.js"></script>
-<!-- much better for example -->
-	<script src="fancybox.js"/>
-	<a href="an image" class="fancybox">thumbnail</a>
-</body>
-</html>
+</template>
