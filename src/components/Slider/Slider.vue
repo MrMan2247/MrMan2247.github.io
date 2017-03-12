@@ -94,7 +94,7 @@
 
   .slider-container {
     position: relative;
-    height: 100vh;
+    height: 80vh;
 
     @media screen and (max-width: 500px) {
       min-height: 950px;
