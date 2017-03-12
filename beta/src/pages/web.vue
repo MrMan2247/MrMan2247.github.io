@@ -39,18 +39,6 @@
 				</p>
 			</div>
 			<div class="example">
-				<img src="../img/newyork-fries.jpg">
-				<p>
-					<span>Name: </span><a href="http://www.newyorkfries.com/" target="_blank">New York Fries</a>
-				</p>
-				<p>
-					<span>Created by:</span> Myself & <a href="http://www.citrusmedia.com/" target="_blank"><img class="citrusmedia" src="../img/citrus-logo.jpg"></a>
-				</p>
-				<p>
-					<span>Worked on: </span> Front end Development + E-Blast emails + testing
-				</p>
-			</div>
-			<div class="example">
 				<img src="../img/new-amherst.jpg">
 				<p>
 					<span>Name: </span><a href="http://www.newamhersthomes.com/" target="_blank">New Amherst Homes</a>

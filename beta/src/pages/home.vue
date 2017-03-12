@@ -2,7 +2,7 @@
 	<div class="wrapper">
 		<div class="header">
 			<video loop="loop" autoplay="autoplay">
-				<source src="../img/timelapse2-stock.mp4">
+				<source src="../assets/img/timelapse2-stock.mp4">
 			</video>
 			<div class="nav">
 				<div class="menu-btn"></div>
@@ -15,7 +15,7 @@
 			<h2>Innovative Design</h2>
 		</div>
 		<div class="pull-down">
-			<img src="../img/pull-down.png">
+			<img src="../assets/img/pull-down.png">
 		</div>
 		<div class="content home">
 			<div class="introduction">
@@ -27,21 +27,21 @@
 			</div>
 			<page-break class="skills" background="img/lower-background.jpg" strength="300">
 				<div class="skill">
-					<img src="../img/icon-responsive.png"/>
+					<img src="../assets/img/icon-responsive.png"/>
 					<h2>Responsive<br>Web<br>Design</h2>
 					<p>
 						Need a mobile website or need your current website converted? All websites created by Bailey Cassel are responsive and will work on any device!
 					</p>
 				</div>
 				<div class="skill">
-					<img src="../img/icon-custom.png"/>
+					<img src="../assets/img/icon-custom.png"/>
 					<h2>Custom<br>Crafted<br>Websites</h2>
 					<p>
 						Sites are made customary to your business or personal needs. All site suitable for any browser. No templates, No extra cost, No worries.
 					</p>
 				</div>
 				<div class="skill">
-					<img class="last-image" src="../img/icon-modern.png"/>
+					<img class="last-image" src="../assets/img/icon-modern.png"/>
 					<h2>Sleek<br>Modern<br>Design</h2>
 					<p>
 						All websites are kept up to date with the latest in styles that will draw in users and make sure that your website is one-of-a-kind compared to the other guys.
