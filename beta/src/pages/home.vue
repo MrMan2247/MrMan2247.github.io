@@ -1,7 +1,8 @@
 <template>
 	<div class="wrapper">
     <div class="masthead">
-      <odometer delay="0">Hey</odometer>
+      <odometer delay="0">Bailey Cassel</odometer>
+      <h2>Inovative Design</h2>
       <video-bg video="../static/timelapse2-stock.mp4" />
     </div>
 
@@ -16,15 +17,6 @@
 				</p>
 				<h4>Look no further.</h4>
 			</div>
-
-      <slider :buttons="true">
-        <slide>
-          Slide 1
-        </slide>
-        <slide>
-          Slide 2
-        </slide>
-      </slider>
 
 			<!--page-break class="skills" background="../assets/img/lower-background.jpg" strength="300">
 				<div class="skill">
@@ -77,11 +69,8 @@ import SpinIn from '../components/spin-in';
 import VideoBg from '../components/video-bg';
 
 import Odometer from '../components/Odometer';
-import Slider from '../components/Slider/Slider';
-import Slide from '../components/Slider/Slide';
-import Effect from '../components/Slider/Effect';
 
 export default {
-  components: { SpinIn, Odometer, Slider, Slide, Effect, VideoBg },
+  components: { SpinIn, Odometer, VideoBg },
 };
 </script>
