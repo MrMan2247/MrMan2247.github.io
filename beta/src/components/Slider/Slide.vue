@@ -131,6 +131,7 @@
     background-size: cover;
     background-position: center top;
     z-index: 1;
+    background: #fff;
 
     &.fade-mode {
       left: 0 !important;
