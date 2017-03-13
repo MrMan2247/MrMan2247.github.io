@@ -191,16 +191,17 @@ body {
 		.skills {
 			display: flex;
 			flex-wrap: wrap;
-			background-size: 100% auto;
 			box-shadow: inset 0 2px 50px 4px rgba(40,30,20,0.7);
+      background: url('./assets/img/rep-bg-home.jpg');
+      background-attachment: fixed;
 
 			.skill {
 				text-align: center;
 				flex: auto;
 				font-family: $sans;
 				padding: 50px 0;
-				color: #fff;
-				margin: auto;
+				color: #333;
+        margin: auto;
 				max-width: 290px;
 
 				img {

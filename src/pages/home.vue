@@ -18,7 +18,7 @@
 				<h4>Look no further.</h4>
 			</div>
 
-			<!--page-break class="skills" background="../assets/img/lower-background.jpg" strength="300">
+			<div class="page-break skills">
 				<div class="skill">
 					<img src="../assets/img/icon-responsive.png"/>
 					<h2>Responsive<br>Web<br>Design</h2>
@@ -40,7 +40,7 @@
 						All websites are kept up to date with the latest in styles that will draw in users and make sure that your website is one-of-a-kind compared to the other guys.
 					</p>
 				</div>
-			</page-break-->
+			</div>
 			<div class="closing">
 				<div class="closing-content">
 					<div class="left">
