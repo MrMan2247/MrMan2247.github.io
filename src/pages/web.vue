@@ -74,13 +74,13 @@
 </template>
 
 <script>
-import SpinIn from '../components/spin-in';
-import VideoBg from '../components/video-bg';
-import Slider from '../components/Slider/Slider';
-import Slide from '../components/Slider/Slide';
-import Effect from '../components/Slider/Effect';
+import SpinIn from '../components/spin-in.vue';
+import VideoBg from '../components/Video-bg.vue';
+import Slider from '../components/Slider/Slider.vue';
+import Slide from '../components/Slider/Slide.vue';
+import Effect from '../components/Slider/Effect.vue';
 
-import Odometer from '../components/Odometer';
+import Odometer from '../components/Odometer.vue';
 
 export default {
   components: { SpinIn, Slider, Slide, Effect, VideoBg, Odometer },
