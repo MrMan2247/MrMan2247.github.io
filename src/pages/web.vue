@@ -17,56 +17,62 @@
           Click on one of the examples below to be redirected to its website.
         </p>
       </div>
-      <slider :buttons="true">
+      <slider :speed="10000" :buttons="true">
         <slide>
-          <div class="example">
-            <div class="left"><img src="../assets/img/armour-heights.jpg"></div>
-            <div class="right">
-              <p>
-                <span>Name: </span><a href="http://armourheightsbaseball.com/" target="_blank">Armour Heights</a>
-              </p>
-              <p>
-                <span>Created by:</span> Myself & <a href="http://www.citrusmedia.com/" target="_blank"><img class="citrusmedia" src="../assets/img/citrus-logo.jpg"></a>
-              </p>
-              <p>
-                <span>Worked on: </span> Front end Development + testing
-              </p>
+          <effect mode="spread">
+            <div class="example">
+              <div class="left"><img src="../assets/img/armour-heights.jpg"></div>
+              <div class="right">
+                <p>
+                  <span>Name: </span><a href="http://armourheightsbaseball.com/" target="_blank">Armour Heights</a>
+                </p>
+                <p>
+                  <span>Created by:</span> Myself & <a href="http://www.citrusmedia.com/" target="_blank"><img class="citrusmedia" src="../assets/img/citrus-logo.jpg"></a>
+                </p>
+                <p>
+                  <span>Worked on: </span> Front end Development + testing
+                </p>
+              </div>
             </div>
-          </div>
+          </effect>
         </slide>
 
         <slide>
-          <div class="example">
-            <div class="left"><img src="../assets/img/new-amherst.jpg"></div>
-            <div class="right">
-              <p>
-                <span>Name: </span><a href="http://www.newamhersthomes.com/" target="_blank">New Amherst Homes</a>
-              </p>
-              <p>
-                <span>Created by:</span> Myself & <a href="http://www.citrusmedia.com/" target="_blank"><img class="citrusmedia" src="../assets/img/citrus-logo.jpg"></a>
-              </p>
-              <p>
-                <span>Worked on: </span> Front end Development + CMS content + testing
-              </p>
+          <effect mode="spread">
+            <div class="example">
+              <div class="left"><img src="../assets/img/new-amherst.jpg"></div>
+              <div class="right">
+                <p>
+                  <span>Name: </span><a href="http://www.newamhersthomes.com/" target="_blank">New Amherst Homes</a>
+                </p>
+                <p>
+                  <span>Created by:</span> Myself & <a href="http://www.citrusmedia.com/" target="_blank"><img class="citrusmedia" src="../assets/img/citrus-logo.jpg"></a>
+                </p>
+                <p>
+                  <span>Worked on: </span> Front end Development + CMS content + testing
+                </p>
+              </div>
             </div>
-          </div>
+          </effect>
         </slide>
 
         <slide>
-          <div class="example">
-            <div class="left"><img src="../assets/img/oshawa-clinic.jpg"></div>
-            <div class="right">
-              <p>
-                <span>Name: </span><a href="http://www.oshawaclinic.com/" target="_blank">Oshawa Clinic</a>
-              </p>
-              <p>
-                <span>Created by:</span> Myself & <a href="http://www.citrusmedia.com/" target="_blank"><img class="citrusmedia" src="../assets/img/citrus-logo.jpg"></a>
-              </p>
-              <p>
-                <span>Worked on: </span> Front end Development + search engine + testing
-              </p>
+          <effect mode="spread">
+            <div class="example">
+              <div class="left"><img src="../assets/img/oshawa-clinic.jpg"></div>
+              <div class="right">
+                <p>
+                  <span>Name: </span><a href="http://www.oshawaclinic.com/" target="_blank">Oshawa Clinic</a>
+                </p>
+                <p>
+                  <span>Created by:</span> Myself & <a href="http://www.citrusmedia.com/" target="_blank"><img class="citrusmedia" src="../assets/img/citrus-logo.jpg"></a>
+                </p>
+                <p>
+                  <span>Worked on: </span> Front end Development + search engine + testing
+                </p>
+              </div>
             </div>
-          </div>
+          </effect>
         </slide>
       </slider>
     </div>

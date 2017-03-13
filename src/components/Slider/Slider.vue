@@ -67,11 +67,11 @@
         }
       },
       resetTimer () {
-        if (this.timer !== undefined) {
+        if (this.speed !== undefined) {
           if (this.timerID !== null) {
             clearInterval(this.timerID)
           }
-          this.timerID = setInterval(() => this.next(), this.timer)
+          this.timerID = setInterval(() => this.next(), this.speed)
         }
       },
       createSlide (slide) {
@@ -94,7 +94,7 @@
 
   .slider-container {
     position: relative;
-    height: 80vh;
+    height: 400px;
 
     @media screen and (max-width: 500px) {
       min-height: 950px;
@@ -124,6 +124,18 @@
         height: 100%;
         width: 100%;
         z-index: 999;
+
+        &::before {
+          content: '';
+          position: absolute;
+          background: url('../../assets/img/left-arrow.png');
+          width: 100px;
+          height: 100px;
+          background-size: cover;
+          left: 0;
+          top: 35%;
+
+        }
 
         .btn {
           height: 100%;
