@@ -23,7 +23,9 @@
             :order="key"
             :key="key"
             class="con">
-              <div class="sizemeplzdaddy" :style="'background-image: url(' + image.src + ');'" />
+              <snep :image="image.src" style="height: 100%; width: 100%;">
+                <div class="sizemeplzdaddy" :style="'background-image: url(' + image.src + ');'"></div>
+              </snep>
           </waterfall-slot>
         </waterfall>
       </div>
@@ -36,8 +38,10 @@ import VideoBg from '../components/Video-bg.vue';
 
 import Odometer from '../components/Odometer.vue';
 
-import Waterfall from 'vue-waterfall/lib/waterfall'
-import WaterfallSlot from 'vue-waterfall/lib/waterfall-slot'
+import Snep from '../components/Snep.vue';
+
+import Waterfall from 'vue-waterfall/lib/waterfall';
+import WaterfallSlot from 'vue-waterfall/lib/waterfall-slot';
 
 export default {
   data () {
@@ -91,7 +95,7 @@ export default {
       ]
     }
   },
-  components: { VideoBg, Odometer, Waterfall, WaterfallSlot },
+  components: { VideoBg, Odometer, Waterfall, WaterfallSlot, Snep },
 };
 </script>
 
