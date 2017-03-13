@@ -1,10 +1,10 @@
 <template>
 	<div class="wrapper">
     <div class="masthead">
-      <odometer delay="0">Bailey Cassel</odometer>
-      <h2>Innovative Design</h2>
+      <odometer delay="0">Photography</odometer>
+      <h2>Done right.</h2>
     </div>
-    <video-bg video="../static/timelapse2-stock.mp4" />
+    <video-bg video="../static/camerazoom2-stock.mp4" />
 		<div class="pull-down">
 			<img src="../assets/img/pull-down.png">
 		</div>
@@ -100,7 +100,8 @@ export default {
 
 <style lang="scss">
 .vue-waterfall-container {
-  background: #454545;
+  background: url('../assets/img/gallery-bg.jpg');
+  background-attachment: fixed;
   padding: 75px 0;
 }
 .con {

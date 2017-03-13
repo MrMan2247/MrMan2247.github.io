@@ -1,10 +1,10 @@
 <template>
 	<div class="wrapper">
     <div class="masthead">
-      <odometer delay="0">Bailey Cassel</odometer>
-      <h2>Innovative Design</h2>
+      <odometer delay="0">Web Design</odometer>
+      <h2>Yup, I built that.</h2>
     </div>
-		<video-bg video="../static/timelapse2-stock.mp4" />
+		<video-bg video="../static/typing3-stock.mp4" />
 		<div class="pull-down">
 			<img src="../assets/img/pull-down.png">
 		</div>
@@ -18,6 +18,26 @@
         </p>
       </div>
       <slider :speed="10000" :buttons="true">
+
+      <slide>
+          <effect mode="spread">
+            <div class="example">
+              <div class="left"><img src="../assets/img/paintastic.jpg"></div>
+              <div class="right">
+                <p>
+                  <span>Name: </span><a href="http://paintastic.ca/" target="_blank">Paintastic!</a>
+                </p>
+                <p>
+                  <span>Created by:</span> Myself & <a href="http://www.citrusmedia.com/" target="_blank"><img class="citrusmedia" src="../assets/img/citrus-logo.jpg"></a>
+                </p>
+                <p>
+                  <span>Worked on: </span> Front end Development + testing
+                </p>
+              </div>
+            </div>
+          </effect>
+        </slide>
+
         <slide>
           <effect mode="spread">
             <div class="example">
