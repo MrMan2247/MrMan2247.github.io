@@ -137,6 +137,7 @@
         }
 
         &::after {
+          z-index: -1;
           content: '';
           position: absolute;
           background: url('../../assets/img/right-arrow.png');
