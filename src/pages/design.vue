@@ -39,7 +39,6 @@ import VideoBg from '../components/Video-bg.vue';
 import Odometer from '../components/Odometer.vue';
 
 import Snep from '../components/Snep.vue';
-
 import Waterfall from 'vue-waterfall/lib/waterfall';
 import WaterfallSlot from 'vue-waterfall/lib/waterfall-slot';
 
