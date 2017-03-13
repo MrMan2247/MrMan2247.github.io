@@ -134,7 +134,17 @@
           background-size: cover;
           left: 0;
           top: 35%;
+        }
 
+        &::after {
+          content: '';
+          position: absolute;
+          background: url('../../assets/img/right-arrow.png');
+          width: 100px;
+          height: 100px;
+          background-size: cover;
+          right: 0;
+          top: 35%;
         }
 
         .btn {
