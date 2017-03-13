@@ -1,12 +1,13 @@
+// Vue System
 import Vue from 'vue';
 import Router from 'vue-router';
+Vue.use(Router);
 
+// Page Component Imports
 import Home from '@/pages/home';
 import Design from '@/pages/design';
 import Web from '@/pages/web';
 import Experience from '@/pages/experience';
-
-Vue.use(Router);
 
 export default new Router({
   routes: [

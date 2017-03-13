@@ -74,7 +74,6 @@
 </template>
 
 <script>
-import SpinIn from '../components/spin-in.vue';
 import VideoBg from '../components/Video-bg.vue';
 import Slider from '../components/Slider/Slider.vue';
 import Slide from '../components/Slider/Slide.vue';
@@ -83,6 +82,6 @@ import Effect from '../components/Slider/Effect.vue';
 import Odometer from '../components/Odometer.vue';
 
 export default {
-  components: { SpinIn, Slider, Slide, Effect, VideoBg, Odometer },
+  components: { Slider, Slide, Effect, VideoBg, Odometer },
 };
 </script>
